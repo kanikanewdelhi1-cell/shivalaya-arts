@@ -62,7 +62,7 @@ body {
         90deg,
         rgba(0,0,0,0.95),
         rgba(0,0,0,0.5)
-    ), url("https://images.unsplash.com/photo-1497366754035-f200968a6e72");
+    ), url("images/flex-printing.jpeg");
     background-size: cover;
     background-position: center;
 }
