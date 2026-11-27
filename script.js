@@ -9,7 +9,7 @@ form.addEventListener("submit", function(event) {
     const service = document.getElementById("service").value;
     const message = document.getElementById("message").value;
 
-    const whatsappNumber = "919811443762";
+    const whatsappNumber = "919811243762";
 
     const text = `Hello Shivalaya Arts!
 

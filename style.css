@@ -1,4 +1,4 @@
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -594,3 +594,184 @@ html {
         gap: 30px;
     }
 }
+.logo img {
+    width: 100px !important;
+    height: 50px !important;
+    object-fit: contain !important;
+}
+/* CLIENTS SECTION */
+
+#clients {
+    width: 100%;
+    padding: 70px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+}
+
+#clients .section-tag,
+#clients h2,
+#clients .section-description {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clients .clients-grid {
+    width: 100%;
+    max-width: 850px;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#clients .client-card {
+    height: 120px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients .client-card img {
+    width: 160px;
+    height: 85px;
+    object-fit: contain;
+}
+
+#gallery .gallery-grid {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 15px !important;
+    max-width: 1100px;
+    margin: 30px auto !important;
+}
+
+#gallery .gallery-grid img {
+    width: 100% !important;
+    height: 160px !important;
+    object-fit: cover !important;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #gallery .gallery-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+/* All Service Cards Equal Size */
+
+.service-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 25px !important;
+    align-items: stretch !important;
+    max-width: 1100px;
+    margin: 40px auto !important;
+}
+
+.service-card {
+    width: 100% !important;
+    min-height: 220px !important;
+    height: 220px !important;
+    box-sizing: border-box !important;
+    padding: 25px !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+}
+
+.service-icon {
+    font-size: 35px !important;
+}
+
+.service-card h3 {
+    font-size: 20px !important;
+}
+
+.service-card p {
+    font-size: 15px !important;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .service-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-container {
+        grid-template-columns: 1fr !important;
+    }
+}
+#clients {
+    padding-top: 250px !important;
+}
+/* Center Company Logos */
+
+#clients .clients-grid {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 25px !important;
+    width: 100% !important;
+    max-width: 1000px !important;
+    margin: 40px auto !important;
+}
+
+#clients .client-card {
+    width: 250px !important;
+    height: 150px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+}
+
+#clients .client-card img {
+    max-width: 180px !important;
+    max-height: 100px !important;
+    object-fit: contain !important;
+}
+/* Clients Heading Alignment */
+
+#clients .section-tag {
+    text-align: center !important;
+    width: 100% !important;
+    font-size: 14px !important;
+    margin: 0 auto 10px !important;
+    white-space: nowrap;
+}
+
+#clients h2 {
+    text-align: center !important;
+    width: 100% !important;
+    font-size: 28px !important;
+    margin: 0 auto 12px !important;
+    white-space: nowrap;
+}
+
+#clients .section-description {
+    text-align: center !important;
+    width: 100% !important;
+    font-size: 14px !important;
+    margin: 0 auto 30px !important;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    #clients h2 {
+        font-size: 21px !important;
+    }
+
+    #clients .section-description {
+        font-size: 11px !important;
+    }
+}
+
